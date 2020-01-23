@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private PostsAdapter postsAdapter;
     private List<DataModel> dataModelList;
-    private DataItemClickListener dataItemClickListener;
     private int lastPageIterated = 0;
     private Toolbar toolbar;
     private TextView tv_count;
